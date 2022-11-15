@@ -56,7 +56,7 @@
 			// 
 			// searchButton
 			// 
-			this.searchButton.Location = new System.Drawing.Point(602, 48);
+			this.searchButton.Location = new System.Drawing.Point(412, 48);
 			this.searchButton.Name = "searchButton";
 			this.searchButton.Size = new System.Drawing.Size(75, 23);
 			this.searchButton.TabIndex = 1;
@@ -80,7 +80,7 @@
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.ReadOnly = true;
 			this.dataGridView1.RowTemplate.Height = 24;
-			this.dataGridView1.Size = new System.Drawing.Size(641, 306);
+			this.dataGridView1.Size = new System.Drawing.Size(451, 261);
 			this.dataGridView1.TabIndex = 2;
 			this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
 			// 
@@ -135,7 +135,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(522, 405);
 			this.Controls.Add(this.categoryComboBox);
 			this.Controls.Add(this.dataGridView1);
 			this.Controls.Add(this.searchButton);

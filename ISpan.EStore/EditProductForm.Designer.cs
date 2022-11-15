@@ -48,7 +48,7 @@
 			this.categoryIdComboBox.Location = new System.Drawing.Point(137, 53);
 			this.categoryIdComboBox.Name = "categoryIdComboBox";
 			this.categoryIdComboBox.Size = new System.Drawing.Size(160, 20);
-			this.categoryIdComboBox.TabIndex = 3;
+			this.categoryIdComboBox.TabIndex = 1;
 			this.categoryIdComboBox.ValueMember = "Id";
 			// 
 			// productNameTextBox
@@ -56,14 +56,14 @@
 			this.productNameTextBox.Location = new System.Drawing.Point(137, 89);
 			this.productNameTextBox.Name = "productNameTextBox";
 			this.productNameTextBox.Size = new System.Drawing.Size(160, 22);
-			this.productNameTextBox.TabIndex = 7;
+			this.productNameTextBox.TabIndex = 2;
 			// 
 			// listPriceTextBox
 			// 
 			this.listPriceTextBox.Location = new System.Drawing.Point(137, 125);
 			this.listPriceTextBox.Name = "listPriceTextBox";
 			this.listPriceTextBox.Size = new System.Drawing.Size(160, 22);
-			this.listPriceTextBox.TabIndex = 8;
+			this.listPriceTextBox.TabIndex = 3;
 			// 
 			// label3
 			// 
@@ -71,7 +71,7 @@
 			this.label3.Location = new System.Drawing.Point(44, 128);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(29, 12);
-			this.label3.TabIndex = 4;
+			this.label3.TabIndex = 0;
 			this.label3.Text = "牌價";
 			// 
 			// label2
@@ -80,7 +80,7 @@
 			this.label2.Location = new System.Drawing.Point(44, 89);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(53, 12);
-			this.label2.TabIndex = 5;
+			this.label2.TabIndex = 0;
 			this.label2.Text = "商品名稱";
 			// 
 			// label1
@@ -89,7 +89,7 @@
 			this.label1.Location = new System.Drawing.Point(44, 56);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(29, 12);
-			this.label1.TabIndex = 6;
+			this.label1.TabIndex = 0;
 			this.label1.Text = "分類";
 			// 
 			// updateButton
@@ -98,7 +98,7 @@
 			this.updateButton.Location = new System.Drawing.Point(118, 175);
 			this.updateButton.Name = "updateButton";
 			this.updateButton.Size = new System.Drawing.Size(75, 23);
-			this.updateButton.TabIndex = 9;
+			this.updateButton.TabIndex = 4;
 			this.updateButton.Text = "Update";
 			this.updateButton.UseVisualStyleBackColor = true;
 			this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
@@ -109,7 +109,7 @@
 			this.deleteButton.Location = new System.Drawing.Point(222, 175);
 			this.deleteButton.Name = "deleteButton";
 			this.deleteButton.Size = new System.Drawing.Size(75, 23);
-			this.deleteButton.TabIndex = 10;
+			this.deleteButton.TabIndex = 5;
 			this.deleteButton.Text = "Delete";
 			this.deleteButton.UseVisualStyleBackColor = true;
 			this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
